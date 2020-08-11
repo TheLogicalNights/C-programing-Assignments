@@ -1,0 +1,20 @@
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Parameters    : None
+// Return Value  : None
+// Description   : This is simple function which will print Marvellous 5 times on the Screen. 
+// Author        : Swapnil Ramesh Adhav
+// Date          : 24 july 2020
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include "Header.h"
+void Display()
+{
+    int i = 0;
+    for(i=1;i<=5;i++)
+    {
+        printf("Marvellous\n");
+    }
+}

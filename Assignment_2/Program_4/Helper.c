@@ -1,0 +1,19 @@
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Parameter     : Integer , Integer
+// Return Value  : None
+// Description   : This function takes two int as parameter and print first number in second number of times
+//
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include "Header.h"
+void Display(int iValue, int iFreq)
+{
+    int i = 0;
+    for(i=1;i<=iFreq;i++)
+    {
+        printf("%d ",iValue);
+    }
+}
