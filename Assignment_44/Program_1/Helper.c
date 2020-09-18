@@ -1,0 +1,23 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Parameters    : None
+// Return Value  : None
+// Description   : It is used to print perticular pattern using recursion
+// Author        : Swapnil Ramesh Adhav
+// Date          : 18th sept 2020
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#include "Header.h"
+
+void Display()
+{
+    static int iCnt = 0;
+    if(iCnt!=5)
+    {
+        printf("*\t");
+        iCnt++;
+        Display();
+    }
+}
