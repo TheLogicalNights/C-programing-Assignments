@@ -1,0 +1,1 @@
+Hello to file handling Here we are appending the data into Demo.txt from Helper function 
